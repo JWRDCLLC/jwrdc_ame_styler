@@ -11,14 +11,14 @@ class ComposerStaticInitd1bac19eb84afdae4b544b573078038d
     );
 
     public static $prefixLengthsPsr4 = array (
-        'W' =>
+        'J' =>
         array (
-            'WPMB_AME_Styler\\' => 16,
+            'JWRDC_AME_Styler\\' => 17,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'WPMB_AME_Styler\\' =>
+        'JWRDC_AME_Styler\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

@@ -3,10 +3,10 @@
  * Class for the Admin Menu Style.
  * REQUIRES Admin Menu Editor plugin.
  *
- * @package WPMB_AME_Toggle
+ * @package JWRDC_AME_Styler
  */
 
-namespace WPMB_AME_Styler\classes;
+namespace JWRDC_AME_Styler\classes;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -93,10 +93,10 @@ class AdminMenuStyle {
 	 */
 	public function enqueue_admin_assets() {
 		wp_enqueue_script(
-			'wpmb-admin-menu-style',
-			\WPMB_AME_STYLER_URL . 'src/js/admin-menu.js',
+			'jwrdc-admin-menu-style',
+			\JWRDC_AME_STYLER_URL . 'src/js/admin-menu.js',
 			array(),
-			filemtime( WPMB_AME_STYLER_PATH . 'src/js/admin-menu.js' ),
+			filemtime( JWRDC_AME_STYLER_PATH . 'src/js/admin-menu.js' ),
 			true
 		);
 	}

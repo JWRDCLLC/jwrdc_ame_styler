@@ -2,10 +2,10 @@
 /**
  * Class for the Admin Menu Options Page.
  *
- * @package WPMB_AME_Styler
+ * @package JWRDC_AME_Styler
  */
 
-namespace WPMB_AME_Styler\classes;
+namespace JWRDC_AME_Styler\classes;
 
 defined( 'ABSPATH' ) || exit;
 

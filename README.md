@@ -1,4 +1,4 @@
-# wpmb_ame_styler
+# jwrdc_ame_styler
 
 This plugin adds 2 features to (Admin Menu Editor)[https://wordpress.org/plugins/admin-menu-editor/].
 

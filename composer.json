@@ -1,11 +1,11 @@
 {
-	"name": "jwrobbs/wpmb_ame_styler",
+	"name": "jwrobbs/jwrdc_ame_styler",
 	"description": "Adds some bells and whistles to WP admin menu.",
 	"type": "wordpress-plugin",
 	"license": "The Unlicense",
 	"autoload": {
 		"psr-4": {
-			"WPMB_AME_Styler\\": "src/"
+			"JWRDC_AME_Styler\\": "src/"
 		}
 	},
 	"authors": [

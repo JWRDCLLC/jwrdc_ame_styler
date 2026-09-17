@@ -2,10 +2,10 @@
 /**
  * Functions related to plugin activation.
  *
- * @package WPMB_AME_Styler
+ * @package JWRDC_AME_Styler
  */
 
-namespace WPMB_AME_Styler;
+namespace JWRDC_AME_Styler;
 
 defined( 'ABSPATH' ) || exit;
 

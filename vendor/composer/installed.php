@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'jwrobbs/wpmb_ame_styler',
+        'name' => 'jwrobbs/jwrdc_ame_styler',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'bc30af0f2b6aac04df219180809ee65f8f90d26a',
+        'reference' => '657c41a6a576de2e2169a2694a19f5937efc1d95',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'jwrobbs/wpmb_ame_styler' => array(
+        'jwrobbs/jwrdc_ame_styler' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'bc30af0f2b6aac04df219180809ee65f8f90d26a',
+            'reference' => '657c41a6a576de2e2169a2694a19f5937efc1d95',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
