@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'WPMB_AME_Styler\\' => array($baseDir . '/src'),
+    'JWRDC_AME_Styler\\' => array($baseDir . '/src'),
 );
