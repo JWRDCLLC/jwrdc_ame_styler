@@ -56,12 +56,12 @@ class AdminMenuStyle {
 			best to apply that color.
 		*/
 
-		$options = get_option( 'ame_options' );
+		$options = get_option( 'ame_options', array() );
 
-		$header_bg     = esc_attr( $options['background'] ) ?? '#002244';
-		$header_text   = esc_attr( $options['foreground'] ) ?? '#ffffff';
-		$a_header_bg   = esc_attr( $options['active_background'] ) ?? '#820000';
-		$a_header_text = esc_attr( $options['active_foreground'] ) ?? '#ffffff';
+		$header_bg     = esc_attr( $options['background'] ?? '#002244' );
+		$header_text   = esc_attr( $options['foreground'] ?? '#ffffff' );
+		$a_header_bg   = esc_attr( $options['active_background'] ?? '#820000' );
+		$a_header_text = esc_attr( $options['active_foreground'] ?? '#ffffff' );
 
 		$style = <<<HTML
 			<style id='admin-menu-styler'>
