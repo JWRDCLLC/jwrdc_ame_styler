@@ -35,9 +35,12 @@ When x-menu-section-header is clicked, the visibility for x-menu-section-item is
 
 The plugin has a basic options panel: 4 color options: header text , header background, active header text, and active header background.
 
+## Releasing updates
+
+The plugin self-updates from this repo's `master` branch (via Plugin Update Checker). Any PR merged into `master` must bump the `Version:` header in `index.php`, or installed sites won't see the update.
+
 ## To Do
 
 Let's be honest. I'll never touch this again.
 
 - Add message to activation.php
-- add update script

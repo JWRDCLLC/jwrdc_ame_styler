@@ -3,7 +3,7 @@
  * Plugin Name: WPMB AME Styler
  * Plugin URI: https://joshrobbs.com
  * Description: A plugin to add toggling to Admin Menu Editor plugin.
- * Version: 1.0.1
+ * Version: 1.1.0
  * Author: Josh Robbs
  * Author URI: https://joshrobbs.com
  * License: The Unlicense
@@ -15,6 +15,7 @@ namespace WPMB_AME_Styler;
 
 use WPMB_AME_Styler\classes\AdminMenuStyle;
 use WPMB_AME_Styler\classes\AMEOptionsPage;
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -24,3 +25,10 @@ require_once __DIR__ . '/activation.php';
 
 new AdminMenuStyle(); // refactor to use static fns.
 new AMEOptionsPage(); // refactor to use static fns.
+
+$update_checker = PucFactory::buildUpdateChecker(
+	'https://github.com/JWRDCLLC/wpmb_ame_styler',
+	__FILE__,
+	'wpmb_ame_styler'
+);
+$update_checker->setBranch( 'master' );
