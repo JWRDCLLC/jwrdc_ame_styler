@@ -25,7 +25,7 @@ Use the Admin Menu Editor to create section headers. Set it to Target Page: none
 
 Still in Admin Menu Editor, add classes to the headers and items.
 
-The class for the headers is <the section's class>-menu-section-header. The class for the items is <the section's class>-menu-section-item.
+The class for the headers is {the section's class}**-menu-section-header**. The class for the items is {the section's class}**-menu-section-item**.
 
 Example: Based on my previous example, my header Content gets the class "content-menu-section-header". The menu items like Pages, Posts, etc. get the class "content-menu-section-item".
 

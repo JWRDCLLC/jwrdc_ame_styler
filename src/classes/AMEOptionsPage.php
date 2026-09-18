@@ -60,7 +60,7 @@ class AMEOptionsPage {
 				<p>Use the Admin Menu Editor to create section headers. Set it to Target Page: none. Rearrange the menu items into the groups and order you want.</p>
 				<p><strong>2. Add classes</strong></p>
 				<p>Still in Admin Menu Editor, add classes to the headers and items.</p>
-				<p>The class for the headers is <the section's class>-menu-section-header. The class for the items is <the section's class>-menu-section-item.</p>
+				<p>The class for the headers is {the section's class}<strong>-menu-section-header</strong>. The class for the items is {the section's class}<strong>-menu-section-item</strong>.</p>
 				<p>Example: Based on my previous example, my header Content gets the class "content-menu-section-header". The menu items like Pages, Posts, etc. get the class "content-menu-section-item".</p>
 				<p>When x-menu-section-header is clicked, the visibility for x-menu-section-item is toggled.</p>
 				<p><strong>3. Customize</strong></p>
