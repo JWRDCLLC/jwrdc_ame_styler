@@ -32,14 +32,12 @@ class AMEOptionsPage {
 	 * Add the options page to the admin menu.
 	 */
 	public function add_options_page() {
-		add_menu_page(
+		\add_options_page(
 			'AME Options', // Page title.
 			'AME Options', // Menu title.
 			'manage_options', // Capability.
 			'ame-options', // Menu slug.
-			array( $this, 'render_options_page' ), // Callback.
-			'', // Icon URL.
-			100 // Position.
+			array( $this, 'render_options_page' ) // Callback.
 		);
 	}
 
