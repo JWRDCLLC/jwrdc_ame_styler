@@ -37,7 +37,7 @@ The plugin has a basic options panel: 4 color options: header text , header back
 
 ## Releasing updates
 
-The plugin self-updates from this repo's `master` branch (via Plugin Update Checker). Any PR merged into `master` must bump the `Version:` header in `index.php`, or installed sites won't see the update.
+The plugin self-updates via Plugin Update Checker, which reads `details.json` from this repo's latest published GitHub Release. To ship an update: bump the `Version:` header in `index.php`, merge to `master`, then publish a GitHub Release tagged `vX.Y.Z` matching that version. The release workflow (`.github/workflows/release.yml`) builds the plugin zip and `details.json` and attaches them to the release automatically; installed sites pick it up on their next update check.
 
 ## To Do
 
