@@ -42,5 +42,3 @@ The plugin self-updates via Plugin Update Checker, which reads `details.json` fr
 ## To Do
 
 Let's be honest. I'll never touch this again.
-
-- Add message to activation.php
